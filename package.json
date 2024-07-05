@@ -15,7 +15,7 @@
     "format:ci": "prettier --list-different \"**/*.{ts,tsx,js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --fix",
     "lint:ci": "eslint \"src/**/*.{js,ts,jsx,tsx}\"",
-    "publish": "pnpm --filter=./packages/* run build && pnpm changeset && pnpm changeset version && pnpm changeset publish"
+    "publish": "pnpm --filter=./packages/* run build && pnpm changeset && pnpm changeset bumpp && pnpm changeset publish"
   },
   "keywords": [
     "pnpm",
