@@ -6,6 +6,9 @@
   "module": "dist/index.esm.js",
   "browser": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "bin": {
+    "ras": "dist/index.cjs"
+  },
   "scripts": {
     "dev": "rollup -c rollup.config.js -w",
     "build": "rimraf dist && rollup -c rollup.config.js"

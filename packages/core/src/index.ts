@@ -1,3 +1,5 @@
-import { demo } from './demo';
-
-demo();
+#!/usr/bin/env node
+const main = () => {
+  console.log('Hello World');
+};
+main();

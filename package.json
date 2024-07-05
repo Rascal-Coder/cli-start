@@ -25,7 +25,8 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
-    "rimraf": "^5.0.7"
+    "rimraf": "^5.0.7",
+    "@ras-cli/core": "workspace:*"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
