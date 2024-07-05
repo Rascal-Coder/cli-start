@@ -1,6 +1,6 @@
 {
   "name": "@ras-cli/core",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.cjs",
   "module": "dist/index.esm.js",
@@ -8,6 +8,9 @@
   "typings": "dist/index.d.ts",
   "bin": {
     "ras": "dist/index.cjs"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "rollup -c rollup.config.js -w",
